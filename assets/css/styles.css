@@ -1,0 +1,42 @@
+body {
+    background: tan;
+    width: 100%;
+
+}
+
+.content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 37px;
+}
+
+#coinButton {
+    height: 30px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+#resultArea {
+    height: 10%;
+    width: 15%;
+    border: 4px solid tan;
+    background: rgb(161, 138, 108);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tails {
+    height: 200px;
+    width: 200px;
+    background-image: url('../images/quarter-tail-png-7-transparent.png');
+    background-size: cover;
+}
+
+.heads {
+    height: 200px;
+    width: 200px;
+    background-image: url('../images/quarter-transparent-back-5-transparent.png');
+    background-size: cover;
+}
